@@ -2,15 +2,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: mctechnology17
-      url-base: https://github.com/mctechnology17
+    - name: whoop-t
+      url-base: https://github.com/whoop-t
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: v0.3
       import: app/west.yml
-    - name: zmk-nice-oled
-      remote: mctechnology17
-      revision: v0.0.2
+    - name: nice-futurama-sus
+      remote: whoop-t
+      revision: a7483284912a8af90fdc02e4ea67317703684a5a
   self:
     path: config
